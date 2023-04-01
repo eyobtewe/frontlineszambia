@@ -1,0 +1,107 @@
+name: frontlineszambia
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.5+5
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  animator: ^3.0.0
+  cached_network_image: ^3.0.0
+  ionicons: ^0.2.1
+  google_fonts: ^3.0.1
+  # recase: ^4.0.0
+  # staggered_grid_view_flutter: ^0.0.4
+  # device_preview: ^1.0.0
+  sleek_circular_slider: ^2.0.1
+
+  # flutter_inappwebview: ^5.2.1+1
+  flutter_widget_from_html: ^0.8.3+1
+
+  path_provider: ^2.0.2
+  provider: ^6.0.1
+  cloud_firestore: ^3.1.1
+  firebase_analytics: ^9.0.3
+  firebase_dynamic_links: ^4.0.2
+  http: ^0.13.1
+  assets_audio_player: ^3.0.4+1
+  sembast: ^3.0.0+4
+  share: ^2.0.1
+  shared_preferences: ^2.0.5
+  avatar_glow: ^2.0.2
+  # firestore_search: ^0.1.9
+  animated_text_kit: ^4.2.1
+  native_admob_flutter: ^1.5.0+1
+  # flutter_screenutil: ^3.1.1
+
+  # flutter_visualizers: ^0.0.2
+  # just_waveform: ^0.0.2
+  # siri_wave: ^0.1.1
+  # native_admob_flutter: ^1.5.0
+
+dev_dependencies:
+  dart_code_metrics: ^4.8.1
+  flutter_launcher_icons: ^0.10.0
+  flutter_lints: ^2.0.1
+  url_launcher: ^6.1.6
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: FenwickWoodtype
+      fonts:
+        - asset: assets/fonts/old/FenwickWoodtype.ttf
+
+    - family: Ny
+      fonts:
+        - asset: assets/fonts/geez/nyala.ttf
+
+    - family: Chomsky
+      fonts:
+        - asset: assets/fonts/old/Chomsky.otf
+
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/Oswald_VariableFont_wght.ttf
+
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/Open_Sans/OpenSans-Regular.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Bold.ttf
+          weight: 700
+    # - family: SF
+    #   fonts:
+    #     - asset: assets/fonts/sf/SF-UI-Display-Regular.ttf
+    #     - asset: assets/fonts/sf/SF-UI-Display-Ultralight.ttf
+    #       weight: 100
+    #     # - asset: assets/fonts/sf/SF-UI-Display-Thin.ttf
+    #     #   weight: 200
+    #     # - asset: assets/fonts/sf/SF-UI-Display-Light.ttf
+    #     #   weight: 300
+    #     # - asset: assets/fonts/sf/SF-UI-Display-Medium.ttf
+    #     #   weight: 500
+    #     # - asset: assets/fonts/sf/SF-UI-Display-Semibold.ttf
+    #     #   weight: 600
+    #     - asset: assets/fonts/sf/SF-UI-Display-Bold.ttf
+    #       weight: 700
+    #     # - asset: assets/fonts/sf/SF-UI-Display-Black.ttf
+    #     #   weight: 800
+    #     # - asset: assets/fonts/sf/SF-UI-Display-Heavy.ttf
+    #     #   weight: 900
